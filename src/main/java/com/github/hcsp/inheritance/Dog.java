@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class Dog extends biological{
+public class Dog extends Biological{
 
     public Dog(String name) {
         super(name);

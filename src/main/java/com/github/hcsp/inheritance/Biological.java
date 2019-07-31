@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class biological {
+public class Biological {
     private String name;
     private int age;
 
@@ -8,11 +8,11 @@ public class biological {
         return age;
     }
 
-    public biological(String name) {
+    public Biological(String name) {
         this.name = name;
     }
 
-    public biological(String name, int age) {
+    public Biological(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -21,8 +21,5 @@ public class biological {
         System.out.println("我的名字是" + name);
     }
 
-    public void sayMyAge() {
-        System.out.println("我的年龄是" + age);
-    }
 
 }
