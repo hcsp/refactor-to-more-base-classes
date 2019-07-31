@@ -1,20 +1,13 @@
 package com.github.hcsp.inheritance;
 
-public class Boy {
-    private String name;
-    private int age;
+public class Boy extends biological{
 
     public Boy(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
+        super(name,age);
     }
 
     public void sayMyAge() {
-        System.out.println("我的年龄是" + age);
+        System.out.println("我的年龄是" + getAge());
     }
 
     public void sayBoy() {
