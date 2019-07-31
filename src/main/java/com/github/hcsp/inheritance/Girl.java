@@ -6,11 +6,6 @@ public class Girl extends Biological{
         super(name,age);
     }
 
-
-    public void sayMyAge() {
-        System.out.println("我的年龄是" + getAge());
-    }
-
     public void sayGirl() {
         System.out.println("我是一个女孩");
     }
