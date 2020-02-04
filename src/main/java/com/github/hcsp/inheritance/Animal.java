@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class animal {
+public class Animal {
     protected String name;
 
     public void sayMyName() {
