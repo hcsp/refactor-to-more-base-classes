@@ -1,14 +1,9 @@
 package com.github.hcsp.inheritance;
 
-public class Dog {
-    private String name;
+public class Dog extends Information {
 
     public Dog(String name) {
-        this.name = name;
-    }
-
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
+        setInformation(name);
     }
 
     public void wang() {
