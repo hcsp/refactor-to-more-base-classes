@@ -1,20 +1,8 @@
 package com.github.hcsp.inheritance;
 
-public class Girl {
-    private String name;
-    private int age;
-
+public class Girl extends People {
     public Girl(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
-    }
-
-    public void sayMyAge() {
-        System.out.println("我的年龄是" + age);
+        super(name, age);
     }
 
     public void sayGirl() {
