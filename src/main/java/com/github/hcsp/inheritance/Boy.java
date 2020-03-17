@@ -1,6 +1,6 @@
 package com.github.hcsp.inheritance;
 
-public class Boy extends Famlly{
+public class Boy extends Family{
     public Boy (String name , int age){
         super (name , age);
     }
