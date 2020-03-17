@@ -1,7 +1,7 @@
 package com.github.hcsp.inheritance;
 
 public class Zoo {
-    public String name;
+    String name;
 
     public Zoo (String name) {
         this.name = name;

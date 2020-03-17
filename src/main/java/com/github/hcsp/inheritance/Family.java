@@ -1,8 +1,8 @@
 package com.github.hcsp.inheritance;
 
 public class Family {
-    public String name;
-    public int age;
+    String name;
+    int age;
 
     public Family(String name , int age){
         this.name = name;
