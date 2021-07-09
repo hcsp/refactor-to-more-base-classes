@@ -4,10 +4,8 @@ public class Boy extends People {
 
 
     public Boy(String name, int age) {
-        this.name = name;
-        this.age = age;
+        super(name, age);
     }
-
 
     public void sayBoy() {
         System.out.println("我是一个男孩");

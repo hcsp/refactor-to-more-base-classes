@@ -3,7 +3,7 @@ package com.github.hcsp.inheritance;
 public class Cat extends Life {
 
     public Cat(String name) {
-        this.name = name;
+        super(name);
     }
 
     public void meow() {

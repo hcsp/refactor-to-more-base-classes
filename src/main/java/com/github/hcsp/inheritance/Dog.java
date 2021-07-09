@@ -3,7 +3,7 @@ package com.github.hcsp.inheritance;
 public class Dog extends Life {
 
     public Dog(String name) {
-        this.name = name;
+        super(name);
     }
 
     public void wang() {
