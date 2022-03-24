@@ -1,17 +1,14 @@
 package com.github.hcsp.inheritance;
 
-public class Girl {
+public class Girl extends Animal {
     private String name;
     private int age;
 
-    public Girl(String name, int age) {
-        this.name = name;
+    public Girl(String name,int age) {
+        super(name);
         this.age = age;
     }
 
-    public void sayMyName() {
-        System.out.println("我的名字是" + name);
-    }
 
     public void sayMyAge() {
         System.out.println("我的年龄是" + age);
