@@ -1,0 +1,16 @@
+package com.github.hcsp.inheritance;
+
+public class Human {
+    protected String name;
+    protected int age;
+    public Human(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    public void sayMyName() {
+        System.out.println("我的名字是" + this.name);
+    }
+    public void sayMyAge() {
+        System.out.println("我的年龄是" + this.age);
+    }
+}
