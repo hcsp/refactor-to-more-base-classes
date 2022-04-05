@@ -6,8 +6,6 @@ public class Girl extends Animal {
        super(name, age);
     }
 
-
-
     public void sayGirl() {
         System.out.println("我是一个女孩");
     }

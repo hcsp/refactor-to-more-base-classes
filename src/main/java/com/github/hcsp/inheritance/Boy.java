@@ -6,9 +6,6 @@ public class Boy extends Animal {
         super(name, age);
     }
 
-
-
-
     public void sayBoy() {
         System.out.println("我是一个男孩");
     }
