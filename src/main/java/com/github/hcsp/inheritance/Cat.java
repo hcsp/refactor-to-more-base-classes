@@ -5,10 +5,6 @@ public class Cat extends Intitle {
         super.setName(name);
     }
 
-    public void sayMyName() {
-        System.out.println("我的名字是" + super.getName());
-    }
-
     public void meow() {
         super.log("喵");
     }

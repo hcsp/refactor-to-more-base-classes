@@ -10,4 +10,8 @@ public class Person extends Intitle {
   public void setAge(int age) {
     this.age = age;
   }
+
+  public void sayMyAge() {
+    System.out.println("我的年龄是" + age);
+  }
 }
