@@ -1,9 +1,9 @@
 package com.github.hcsp.inheritance;
 
-class Creature {
+public class Animal {
     String name;
 
-    Creature(String name) {
+    Animal(String name) {
         this.name = name;
     }
 
